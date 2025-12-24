@@ -3,7 +3,7 @@ A small Template for easily creating WinDbg extensions.
 
 I wrote this in a very short time, so dont expect it to be perfect.
 
-this is the template for the commands :
+# Command Definition Structure
 
 
 	Define it as a export and a callback.
@@ -20,3 +20,16 @@ this is the template for the commands :
 	Return success code
 
 I am currently making a ai based plugin, and decided to release this on the way.
+
+# To Load the plugin into windbg
+
+Load -> 
+
+	In the Terminal:
+	.load <Defined Path to the Dll>
+
+Unload ->
+
+	.unload endpoint
+
+	
